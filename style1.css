@@ -1,0 +1,41 @@
+body {
+	background-color: #F0FFF0;
+}
+canvas {
+	display: block;
+	margin: 30px auto 0px;
+	outline : 2px solid #000;
+
+}
+#player  {
+	display:block;
+	margin: -550px auto 0px;
+}
+#stats  {
+	display:block;
+	margin: -550px auto 0px;
+}
+#carrot  {
+	display:block;
+	margin: -550px auto 0px;
+}
+#meat {
+	display:block;
+	margin: -550px auto 0px;
+}
+#arbuz  {
+	display:block;
+	margin: -550px auto 0px;
+}
+#fish{
+	display:block;
+	margin: -550px auto 0px;
+}
+#lemon  {
+	display:block;
+	margin: -550px auto 0px;
+}
+#bread {
+	display:block;
+	margin: -550px auto 0px;
+}
