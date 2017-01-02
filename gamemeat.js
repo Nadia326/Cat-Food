@@ -532,6 +532,15 @@ Player.prototype.update = function() {
 			} 	
 			
 	}
+	for(var i = 0; i < allfood5.length; i++) {
+		if(this.drawX >= allfood5[i].drawX && 
+			this.drawY+60 >= allfood5[i].drawY && 
+			this.drawX <= allfood5[i].drawX + allfood5[i].width && 
+			this.drawY+60 <= allfood5[i].drawY + allfood5[i].height){ 
+				health++;
+			} 	
+			
+	}
 	for(var i = 0; i < allfood.length; i++) {
 		if(this.drawX >= allfood[i].drawX && 
 			this.drawY+60 >= allfood[i].drawY && 
