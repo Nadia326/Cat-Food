@@ -244,7 +244,7 @@ Lemon.prototype.draw = function() {
 }
 
 Lemon.prototype.update = function() {
-	this.drawX -= 20;
+	this.drawX -= 10;
 	if(this.drawX + this.width < 0) {
 		this.destroy();
 	}
@@ -289,7 +289,7 @@ Bread.prototype.draw = function() {
 }
 
 Bread.prototype.update = function() {
-	this.drawX -= 20;
+	this.drawX -= 10;
 	if(this.drawX + this.width < 0) {
 		this.destroy();
 	}
@@ -338,7 +338,7 @@ Carrot.prototype.draw = function() {
 }
 
 Carrot.prototype.update = function() {
-	this.drawX -= 20;
+	this.drawX -= 10;
 	if(this.drawX + this.width < 0) {
 		this.destroy();
 	}
@@ -384,7 +384,7 @@ Fish.prototype.draw = function() {
 }
 
 Fish.prototype.update = function() {
-	this.drawX -= 20;
+	this.drawX -= 10;
 	if(this.drawX + this.width < 0) {
 		this.destroy();
 	}
@@ -430,7 +430,7 @@ Meat.prototype.draw = function() {
 }
 
 Meat.prototype.update = function() {
-	this.drawX -= 20;
+	this.drawX -= 10;
 	if(this.drawX + this.width < 0) {
 		this.destroy();
 	}
@@ -476,7 +476,7 @@ Food.prototype.draw = function() {
 }
 
 Food.prototype.update = function() {
-	this.drawX -= 20;
+	this.drawX -= 10;
 	if(this.drawX + this.width < 0) {
 		this.destroy();
 	}
