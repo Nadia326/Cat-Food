@@ -48,7 +48,7 @@ var health;
 
 
 var spawnInterval;
-var spawnTime = 6000; 
+var spawnTime = 3000; 
 var spawnAmount = 2; 
 var spawnInterval1;
 var spawnInterval3; 
