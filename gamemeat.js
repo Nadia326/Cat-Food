@@ -222,7 +222,7 @@ function Lemon() {
 	this.height = 130;
 	this.drawWidth = 100;
 	this.drawHeight = 100;
-	this.speed = 10;
+	this.speed = 5;
 }
 function spawnFood3(count) {
 	for(var i = 0; i < count; i++) {
@@ -267,7 +267,7 @@ function Bread() {
 	this.height = 130;
 	this.drawWidth = 100;
 	this.drawHeight = 100;
-	this.speed = 10;
+	this.speed = 5;
 }
 function spawnFood5(count) {
 	for(var i = 0; i < count; i++) {
@@ -316,7 +316,7 @@ function Carrot() {
 	this.height = 145;
 	this.drawWidth = 100;
 	this.drawHeight = 100;
-	this.speed = 100;
+	this.speed = 5;
 }
 function spawnFood4(count) {
 	for(var i = 0; i < count; i++) {
@@ -362,7 +362,7 @@ function Fish() {
 	this.height = 135;
 	this.drawWidth = 100;
 	this.drawHeight = 100;
-	this.speed = 8;
+	this.speed = 5;
 }
 function spawnFood6(count) {
 	for(var i = 0; i < count; i++) {
@@ -408,7 +408,7 @@ function Meat() {
 	this.height = 125;
 	this.drawWidth = 100;
 	this.drawHeight = 100;
-	this.speed = 8;
+	this.speed = 5;
 }
 function spawnFood2(count) {
 	for(var i = 0; i < count; i++) {
@@ -454,7 +454,7 @@ function Food() {
 	this.height = 135;
 	this.drawWidth = 100;
 	this.drawHeight = 100;
-	this.speed = 8;
+	this.speed = 5;
 }
 function spawnFood(count) {
 	for(var i = 0; i < count; i++) {
