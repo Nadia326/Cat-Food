@@ -515,9 +515,9 @@ Player.prototype.update = function() {
 	
 	for(var i = 0; i < allfood2.length; i++) {
 		if(this.drawX >= allfood2[i].drawX && 
-			this.drawY+60 >= allfood2[i].drawY && 
+			this.drawY+30 >= allfood2[i].drawY && 
 			this.drawX <= allfood2[i].drawX + allfood2[i].width && 
-			this.drawY+60 <= allfood2[i].drawY + allfood2[i].height){ 
+			this.drawY+30 <= allfood2[i].drawY + allfood2[i].height){ 
 				health++;
 			} 	
 			
@@ -525,45 +525,45 @@ Player.prototype.update = function() {
 	
 	for(var i = 0; i < allfood6.length; i++) {
 		if(this.drawX >= allfood6[i].drawX && 
-			this.drawY+60 >= allfood6[i].drawY && 
+			this.drawY+30 >= allfood6[i].drawY && 
 			this.drawX <= allfood6[i].drawX + allfood6[i].width && 
-			this.drawY+60 <= allfood6[i].drawY + allfood6[i].height){ 
+			this.drawY+30 <= allfood6[i].drawY + allfood6[i].height){ 
 				health++;
 			} 	
 			
 	}
 	for(var i = 0; i < allfood5.length; i++) {
 		if(this.drawX >= allfood5[i].drawX && 
-			this.drawY+60 >= allfood5[i].drawY && 
+			this.drawY+30 >= allfood5[i].drawY && 
 			this.drawX <= allfood5[i].drawX + allfood5[i].width && 
-			this.drawY+60 <= allfood5[i].drawY + allfood5[i].height){ 
+			this.drawY+30 <= allfood5[i].drawY + allfood5[i].height){ 
 				health++;
 			} 	
 			
 	}
 	for(var i = 0; i < allfood.length; i++) {
 		if(this.drawX >= allfood[i].drawX && 
-			this.drawY+60 >= allfood[i].drawY && 
+			this.drawY+30 >= allfood[i].drawY && 
 			this.drawX <= allfood[i].drawX + allfood[i].width && 
-			this.drawY+60 <= allfood[i].drawY + allfood[i].height){ 
+			this.drawY+30 <= allfood[i].drawY + allfood[i].height){ 
 				health--;
 			} 	
 			
 	}
 	for(var i = 0; i < allfood3.length; i++) {
 		if(this.drawX >= allfood3[i].drawX && 
-			this.drawY+60 >= allfood3[i].drawY && 
+			this.drawY+30 >= allfood3[i].drawY && 
 			this.drawX <= allfood3[i].drawX + allfood3[i].width && 
-			this.drawY+60 <= allfood3[i].drawY + allfood3[i].height){ 
+			this.drawY+30 <= allfood3[i].drawY + allfood3[i].height){ 
 				health--;
 			} 	
 			
 	}
 	for(var i = 0; i < allfood4.length; i++) {
 		if(this.drawX >= allfood4[i].drawX && 
-			this.drawY+60 >= allfood4[i].drawY && 
+			this.drawY+30 >= allfood4[i].drawY && 
 			this.drawX <= allfood4[i].drawX + allfood4[i].width && 
-			this.drawY+60 <= allfood4[i].drawY + allfood4[i].height){ 
+			this.drawY+30 <= allfood4[i].drawY + allfood4[i].height){ 
 				health--;
 			} 	
 			
